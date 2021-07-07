@@ -1,0 +1,11 @@
+---
+application:
+  name: "node-shark"
+  project: "node-shark"
+  organization: "we2app"
+routers:
+- name: "main-node-shark"
+  routes:
+  - application_name: "node-shark"
+    paths:
+    - "/*"
